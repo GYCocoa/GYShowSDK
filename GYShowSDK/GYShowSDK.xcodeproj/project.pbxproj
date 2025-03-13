@@ -14,8 +14,7 @@
 		61E78D8D2D82873A0027C9A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E78D802D82873A0027C9A5 /* main.m */; };
 		61E78D8E2D82873A0027C9A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E78D842D82873A0027C9A5 /* SceneDelegate.m */; };
 		61E78D8F2D82873A0027C9A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E78D862D82873A0027C9A5 /* ViewController.m */; };
-		61E78D9B2D828A900027C9A5 /* GYShowFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E78D992D828A7C0027C9A5 /* GYShowFramework.framework */; };
-		61E78D9C2D828A900027C9A5 /* GYShowFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61E78D992D828A7C0027C9A5 /* GYShowFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61E78DA32D828D590027C9A5 /* GYShowFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E78DA22D828D590027C9A5 /* GYShowFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				61E78D9C2D828A900027C9A5 /* GYShowFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,8 +43,8 @@
 		61E78D842D82873A0027C9A5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		61E78D852D82873A0027C9A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		61E78D862D82873A0027C9A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		61E78D992D828A7C0027C9A5 /* GYShowFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GYShowFramework.framework; path = ../GYShowFramework.framework; sourceTree = "<group>"; };
 		61E78D9F2D828B680027C9A5 /* GY_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GY_Header.h; sourceTree = "<group>"; };
+		61E78DA22D828D590027C9A5 /* GYShowFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GYShowFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61E78D9B2D828A900027C9A5 /* GYShowFramework.framework in Frameworks */,
+				61E78DA32D828D590027C9A5 /* GYShowFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,8 +97,8 @@
 		61E78D9E2D828B1C0027C9A5 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				61E78DA22D828D590027C9A5 /* GYShowFramework.framework */,
 				61E78D9F2D828B680027C9A5 /* GY_Header.h */,
-				61E78D992D828A7C0027C9A5 /* GYShowFramework.framework */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -219,6 +217,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GYShowSDK",
+					"$(PROJECT_DIR)/GYShowSDK/SDK",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GYShowSDK/Info.plist;
@@ -251,6 +250,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GYShowSDK",
+					"$(PROJECT_DIR)/GYShowSDK/SDK",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GYShowSDK/Info.plist;
