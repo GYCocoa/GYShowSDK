@@ -15,6 +15,7 @@
 		61E78D8E2D82873A0027C9A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E78D842D82873A0027C9A5 /* SceneDelegate.m */; };
 		61E78D8F2D82873A0027C9A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E78D862D82873A0027C9A5 /* ViewController.m */; };
 		61E78DA32D828D590027C9A5 /* GYShowFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E78DA22D828D590027C9A5 /* GYShowFramework.framework */; };
+		61E78DA62D828E430027C9A5 /* GYBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E78DA52D828E430027C9A5 /* GYBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,8 @@
 		61E78D862D82873A0027C9A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		61E78D9F2D828B680027C9A5 /* GY_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GY_Header.h; sourceTree = "<group>"; };
 		61E78DA22D828D590027C9A5 /* GYShowFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GYShowFramework.framework; sourceTree = "<group>"; };
+		61E78DA42D828E430027C9A5 /* GYBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYBase.h; sourceTree = "<group>"; };
+		61E78DA52D828E430027C9A5 /* GYBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 			children = (
 				61E78DA22D828D590027C9A5 /* GYShowFramework.framework */,
 				61E78D9F2D828B680027C9A5 /* GY_Header.h */,
+				61E78DA42D828E430027C9A5 /* GYBase.h */,
+				61E78DA52D828E430027C9A5 /* GYBase.m */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				61E78D8D2D82873A0027C9A5 /* main.m in Sources */,
 				61E78D8E2D82873A0027C9A5 /* SceneDelegate.m in Sources */,
 				61E78D8F2D82873A0027C9A5 /* ViewController.m in Sources */,
+				61E78DA62D828E430027C9A5 /* GYBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
